@@ -12,6 +12,15 @@ The measurements were carried out using a **Genelec 8020** loudspeaker and the *
 
 This repository includes example scripts to extract the required data, visualize the source and microphone positions for all measurement positions, and resimulate the measurements using the pyroomacoustics toolbox.
 
+Here is an example of measurements in a room. 
+![screenshot](./room_2.png)
+You can notice that from position 1 to 2 we only moved the microphone arrays, from 2 to 3 we moved the source, from 4 to 5 we swapped the microphone positions (same for 6 to 7, and 8 to 9).
+For positions 1,2,3 we did 5 measurement for differents source orientation : facing one EM, then the other one, rear to an EM, then the other one and finally a "natural" orientation of the source in the room.
+This last source orientation is the same from pos 1 to pos 2, it can be usefull for a distributed microphones scenario.
+
+
+
+
 ## Related Work
 
 If you want to reproduce the results reported in our paper, please refer to our companion repository for image source localization: https://github.com/jdpascal/Real2Sim_RIRs
@@ -24,7 +33,7 @@ For volume, surface area, and RT60 estimation from speech, please also refer to 
 
 Please cite our work using the BibTeX entry from the arXiv paper. The citation will be available soon.
 
-## 
+## License
 
     # Copyright (C) 2025  Jean-Daniel PASCAL PRIETO
 
